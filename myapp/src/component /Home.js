@@ -15,7 +15,7 @@ const Home = () => {
       {/* Right Div */}
       <div className="text-center md:text-left">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
-          John Doe
+          Abhishek Patidar
         </h1>
         <h2 className="text-xl md:text-2xl font-semibold text-gray-600 mt-2">
           Front End Developer
