@@ -12,39 +12,39 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div className="flex flex-col text-center md:text-left">
-            <p>Email: info@yourcompany.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p>Email: mrpatidar479@gmail.com</p>
+            <p>Phone: +91 9165101300</p>
           </div>
 
           {/* Address Section */}
           <div className="flex flex-col text-center md:text-left mt-4 md:mt-0">
-            <p>123 Main Street</p>
-            <p>City, State, Zip Code</p>
+            <p>Takrawad</p>
+            <p>Mandsaur , Madhya Pradesh , 458556</p>
           </div>
 
           {/* Social Media Links */}
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a href="https://www.linkedin.com/in/abhishek-patidar-5890b4226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M22.675 0h-21.35C.592 0 0 .592 0 1.325v21.351C0 23.408.592 24 1.325 24h11.495v-9.294H9.765v-3.622h3.055V8.413c0-3.027 1.849-4.675 4.552-4.675 1.294 0 2.408.096 2.733.139v3.171l-1.877.001c-1.471 0-1.756.698-1.756 1.722v2.26h3.514l-.459 3.622h-3.055V24h5.978c.733 0 1.325-.592 1.325-1.324V1.325C24 .592 23.408 0 22.675 0z" />
+                <path d="M22.225 0H1.771C.791 0 0 .771 0 1.729v20.542C0 23.228.791 24 1.771 24h20.451c.981 0 1.778-.772 1.778-1.729V1.729C24 .771 23.206 0 22.225 0zM7.115 20.452H3.56V9.108h3.556v11.344zm-1.778-12.97c-1.14 0-1.87-.796-1.87-1.79 0-1.011.742-1.79 1.902-1.79 1.16 0 1.868.78 1.879 1.79 0 .994-.719 1.79-1.89 1.79h-.021zm15.563 12.97h-3.556v-5.93c0-1.491-.534-2.508-1.871-2.508-.998 0-1.592.67-1.854 1.314-.096.232-.12.553-.12.879v6.246H9.941c.046-10.134 0-11.344 0-11.344h3.555v1.618c.472-.744 1.315-1.805 3.202-1.805 2.338 0 4.088 1.522 4.088 4.797v6.734z" />
               </svg>
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a href="https://github.com/mrabhee" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M24 4.557a9.828 9.828 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.196 4.916 4.916 0 00-8.388 4.482 13.94 13.94 0 01-10.11-5.131 4.916 4.916 0 001.524 6.573 4.885 4.885 0 01-2.228-.615v.062a4.916 4.916 0 003.941 4.827 4.902 4.902 0 01-2.223.084 4.917 4.917 0 004.59 3.415A9.86 9.86 0 010 19.54a13.905 13.905 0 007.548 2.212c9.056 0 14.009-7.514 14.009-14.009 0-.213-.004-.426-.014-.637A10.025 10.025 0 0024 4.557z" />
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.599.111.82-.26.82-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.76-1.604-2.665-.305-5.467-1.333-5.467-5.931 0-1.31.467-2.382 1.235-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.3 1.23a11.49 11.49 0 013.003-.404c1.02.004 2.048.138 3.003.404 2.29-1.553 3.297-1.23 3.297-1.23.654 1.652.243 2.873.12 3.176.77.84 1.234 1.911 1.234 3.221 0 4.609-2.807 5.623-5.479 5.921.43.37.823 1.102.823 2.222v3.293c0 .32.22.694.826.576C20.565 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
               </svg>
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a href="https://www.instagram.com/mr__abhee__?igsh=MXZxcWNkbXlleDJ6cA==" className="text-gray-300 hover:text-white">
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
