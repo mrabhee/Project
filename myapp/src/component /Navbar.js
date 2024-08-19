@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,24 +17,24 @@ const Navbar = () => {
         >
           <ul className="md:flex md:space-x-6 text-gray-300">
             <li className="hover:text-white">
-              <a href="#home" className="block py-2 px-4">
+              <NavLink to="/" className="block py-2 px-4">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="hover:text-white">
-              <a href="#about" className="block py-2 px-4">
+              <NavLink to="/about" className="block py-2 px-4">
                 About
-              </a>
+              </NavLink>
             </li>
             <li className="hover:text-white">
-              <a href="#project" className="block py-2 px-4">
+              <NavLink to="/project" className="block py-2 px-4">
                 Project
-              </a>
+              </NavLink>
             </li>
             <li className="hover:text-white">
-              <a href="#contact" className="block py-2 px-4">
+              <NavLink to="/contact" className="block py-2 px-4">
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
