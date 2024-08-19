@@ -11,6 +11,32 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-xl">Logo</div>
+        <div
+          className={`md:flex ${isOpen ? "block" : "hidden"} w-full md:w-auto`}
+        >
+          <ul className="md:flex md:space-x-6 text-gray-300">
+            <li className="hover:text-white">
+              <a href="#home" className="block py-2 px-4">
+                Home
+              </a>
+            </li>
+            <li className="hover:text-white">
+              <a href="#about" className="block py-2 px-4">
+                About
+              </a>
+            </li>
+            <li className="hover:text-white">
+              <a href="#project" className="block py-2 px-4">
+                Project
+              </a>
+            </li>
+            <li className="hover:text-white">
+              <a href="#contact" className="block py-2 px-4">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
@@ -41,32 +67,6 @@ const Navbar = () => {
               )}
             </svg>
           </button>
-        </div>
-        <div
-          className={`md:flex ${isOpen ? "block" : "hidden"} w-full md:w-auto`}
-        >
-          <ul className="md:flex md:space-x-6 text-gray-300">
-            <li className="hover:text-white">
-              <a href="#home" className="block py-2 px-4">
-                Home
-              </a>
-            </li>
-            <li className="hover:text-white">
-              <a href="#about" className="block py-2 px-4">
-                About
-              </a>
-            </li>
-            <li className="hover:text-white">
-              <a href="#project" className="block py-2 px-4">
-                Project
-              </a>
-            </li>
-            <li className="hover:text-white">
-              <a href="#contact" className="block py-2 px-4">
-                Contact
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </nav>
