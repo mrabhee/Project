@@ -6,7 +6,7 @@ const Home = () => {
       {/* Left Div */}
       <div className="flex justify-center items-center mb-8 md:mb-0">
         <img
-          src="https://via.placeholder.com/200"
+          src="./images/hero.jpg"
           alt="Profile"
           className="rounded-full w-48 h-48 md:max-w-5xl md:max-h-full"
         />
