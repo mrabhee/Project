@@ -17,22 +17,22 @@ const Navbar = () => {
         >
           <ul className="md:flex md:space-x-6 text-gray-300">
             <li className="hover:text-white">
-              <NavLink to="/" className="block py-2 px-4">
+              <NavLink to="/" className=" focus:text-white focus:underline focus:underline-offset-4 block py-2 px-4">
                 Home
               </NavLink>
             </li>
             <li className="hover:text-white">
-              <NavLink to="/about" className="block py-2 px-4">
+              <NavLink to="/about" className="focus:text-white focus:underline focus:underline-offset-4 block py-2 px-4">
                 About
               </NavLink>
             </li>
             <li className="hover:text-white">
-              <NavLink to="/project" className="block py-2 px-4">
+              <NavLink to="/project" className="focus:text-white focus:underline focus:underline-offset-4 block py-2 px-4">
                 Project
               </NavLink>
             </li>
             <li className="hover:text-white">
-              <NavLink to="/contact" className="block py-2 px-4">
+              <NavLink to="/contact" className="focus:text-white focus:underline focus:underline-offset-4 block py-2 px-4">
                 Contact
               </NavLink>
             </li>
