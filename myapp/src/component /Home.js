@@ -2,13 +2,14 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center h-dvh md:space-x-10 p-8">
+    <div className="flex flex-col md:flex-row justify-center items-center h-[80dvh] md:space-x-10 p-8">
       {/* Left Div */}
-      <div className="flex justify-center w-dvw md:w-full items-center mb-8 md:mb-0 ">
+      <div className="flex justify-center w-dvw md:w-full items-center mb-8 md:mb-0">
         <img
           src="./images/hero.jpg"
           alt="Profile"
-          className="rounded-full w-96  md:max-w-5xl md:max-h-full"
+          loading="lazy"
+          className="rounded-full w-1/2  md:max-w-5xl md:max-h-full shadow-2xl"
         />
       </div>
 

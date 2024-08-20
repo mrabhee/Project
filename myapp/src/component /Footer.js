@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-around items-center">
           {/* Logo Section */}
           <div className="mb-4 md:mb-0 ">
-            <div className=""><img src="./images/logo.png" className="w-40 h-auto md:w-32 lg:w-48"/></div>
+            <div className=""><img loading="lazy" src="./images/logo.png" className="w-40 h-auto md:w-32 lg:w-48"/></div>
           </div>
 
           {/* Contact Information */}
