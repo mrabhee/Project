@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex flex-col items-center p-8 bg-gray-100 h-[80dvh]">
+    <div className="flex flex-col items-center p-8 bg-gray-100 h-[80vh]">
       {/* Name Section */}
       <h1 className="text-3xl font-bold mb-4">Abhishek Patidar</h1>
 
