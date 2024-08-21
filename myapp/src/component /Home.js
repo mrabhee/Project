@@ -21,7 +21,7 @@ const Home = () => {
         <h2 className="text-xl md:text-2xl font-semibold text-gray-600 mt-2">
           Front End Developer
         </h2>
-        <p className="mt-4 text-gray-500 leading-relaxed">
+        <p className="mt-4 m-4 text-gray-500 leading-relaxed">
           I’m a passionate front-end developer specializing in creating dynamic,
           responsive, and user-friendly web interfaces. My creativity and
           attention to detail allow me to craft visually appealing and highly
