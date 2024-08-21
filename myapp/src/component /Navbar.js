@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div><img src="./images/logo.png" loading="lazy" className="w-24 h-auto md:w-32 lg:w-48"/></div>
+        <div><img src="./images/logo.png" alt="logo" loading="lazy" className="w-24 h-auto md:w-32 lg:w-48"/></div>
         <div
           className={`md:flex ${isOpen ? "block" : "hidden"} w-full md:w-auto`}
         >
